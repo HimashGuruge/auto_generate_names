@@ -9,4 +9,4 @@ const donationSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User' } // දන් දුන් පරිශීලකයා
 });
 
-export default mongoose.model('Donation', donationSchema);
+export default mongoose.model('Donation', donationSchema)
